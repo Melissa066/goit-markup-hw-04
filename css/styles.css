@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .navig {
     display:flex;
     margin: 0px;
@@ -22,6 +23,8 @@
 
 .first-button {
     display: block;
+    align-items: center;
+    gap: 10px;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -29,10 +32,15 @@
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
-
 }
 .top-head {
     border-bottom: 1px solid #e7e9fc;
+
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px  rgba(46, 47, 66, 0.08);
+        width: 1440px;
+        flex-shrink: 0;
 }
 
 .top-line {
@@ -63,10 +71,6 @@ img {
     
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -88,6 +92,15 @@ body {
 
 .link {
     text-decoration: none;
+    display: block;
+}
+
+.link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .logo-studio-dark {
     color: var(--dark-blue);
@@ -96,10 +109,13 @@ body {
 
     list-style: none;
 }
-        
+
+.contact {
+    font-style: normal;
+}
 
 .contacts{
-    font-style: normal;
+    font-style: normal; 
 }
 .contacts{
     line-height: 1.5;
@@ -138,6 +154,11 @@ body {
     color: var(--dark-blue);
     background-color: var(--dark-blue);
     padding: 188px 0;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    align-items: center;
+    
 }
 
 .title{
@@ -153,6 +174,7 @@ body {
 
     max-width: 496px;
     margin: 0 auto;
+    padding-bottom: 48px;
     
 }
 
@@ -388,6 +410,7 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding:0%;
 }
 
 
@@ -404,9 +427,7 @@ body {
 
 
 
-.top {
-    padding: 24px 0;
-}
+
 
  .visually-hidden {
      position: absolute;
@@ -426,3 +447,21 @@ body {
     min-width: 264px;
 }
  
+.heroi {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img15.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-all:hover {
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+.btn-all:focus {
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
