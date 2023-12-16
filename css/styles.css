@@ -547,8 +547,7 @@ img {
 
 .first-element-customer {
     width: calc(100% - 120px) / 6;
-    width: 168px;
-    height: 88px;
+
 }
 
 .link-customer {
