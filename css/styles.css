@@ -5,6 +5,15 @@
 }
 
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--brand-color);
+}
+
+h2 {
+    margin: 0;
+}
 .navig {
     display:flex;
     margin: 0px;
@@ -72,11 +81,7 @@ img {
 }
 
 
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: var(--brand-color);
-}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -541,7 +546,7 @@ body {
 }
 
 .first-element-customer {
-    width: calc((100% - 120px) / 6);
+    width: width 220px;
 }
 
 .link-customer {
