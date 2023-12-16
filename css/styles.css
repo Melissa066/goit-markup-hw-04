@@ -543,6 +543,7 @@ img {
     gap: 24px;
     list-style: none;
     height: 88px;
+    
 }
 
 
@@ -573,5 +574,5 @@ img {
 } 
 
 .section-five-list {
-    width: 220px;
+    width: calc((100% - 120px) / 6);
 }
