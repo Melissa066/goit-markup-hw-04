@@ -542,12 +542,10 @@ img {
     display: flex;
     gap: 24px;
     list-style: none;
+    height: 88px;
 }
 
-.section-five-list {
-    width: calc((100% - 120px) / 6);
 
-}
 
 .link-customer {
     width: 100%;
