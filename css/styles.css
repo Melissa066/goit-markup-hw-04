@@ -541,12 +541,12 @@ img {
 .list-cust {
     display: flex;
     gap: 24px;
-    height: 88px;
     list-style: none;
 }
 
-.first-element-customer {
-    width: calc(100% - 120px) / 6;
+.section-five-list {
+    width: 168px;
+    height: 88px;
 
 }
 
