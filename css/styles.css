@@ -586,12 +586,14 @@ img {
 }
 
 .foot-div {
+    
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+
 }
 
 .logo-div {
+
     margin-right: 120px;
 }
 
