@@ -575,5 +575,5 @@ img {
 } 
 
 .section-five-list {
-    calc((100% - 120px) / 6);
+    width: calc((100% - 120px) / 6);
 }
