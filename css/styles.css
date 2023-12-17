@@ -11,6 +11,10 @@ body {
     background-color: var(--brand-color);
 }
 
+p {
+    margin: 0;
+}
+
 h2 {
   margin: 0;
 }
@@ -584,6 +588,7 @@ img {
 .foot-div {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 
 .logo-div {
@@ -591,12 +596,15 @@ img {
 }
 
 .scp {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--brand-color);
-    margin-bottom: 16px;
+        margin-bottom: 16px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--brand-color);
+    
 }
 
 .ul-div-class {
