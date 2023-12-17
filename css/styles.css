@@ -586,7 +586,7 @@ img {
 }
 
 .foot-div {
-    
+
     display: flex;
     align-items: baseline;
 
@@ -594,7 +594,7 @@ img {
 
 .logo-div {
 
-    margin-right: 120px;
+    gap: 120px;
 }
 
 .scp {
