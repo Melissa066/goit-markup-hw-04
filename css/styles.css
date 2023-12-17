@@ -380,6 +380,9 @@ img {
 }
 
 .last-decription {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
     max-width: 264px;
 }
 
@@ -576,4 +579,63 @@ img {
 
 .section-five-list {
     width: calc((100% - 120px) / 6);
+}
+
+.foot-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-div {
+    margin-right: 120px;
+}
+
+.scp {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+    margin-bottom: 16px;
+}
+
+.ul-div-class {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    list-style-type: none;
+        
+}
+
+.last-element-div {
+    width: 40px;
+    height: 40px;
+}
+
+.last-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--button-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.last-link:hover {
+    background-color: #31d0aa;
+}
+
+.last-link:focus {
+    background-color: #31d0aa;
+}
+
+.firstredsocial {
+    fill: var(--light-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline-end: 0%;
+    
 }
