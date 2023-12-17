@@ -541,7 +541,7 @@ img {
 .list-cust {
     display: flex;
     gap: 24px;
-    list-style: none;
+    list-style-type: none;
     height: 88px;
     
 }
@@ -574,5 +574,7 @@ img {
 } 
 
 .section-five-list {
-    width: calc((100% - 120px) / 6);
+    width: calc(100% - 120px) / 6);
+    height: 88px;
+    width: 168px;
 }
