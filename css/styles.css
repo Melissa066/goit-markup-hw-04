@@ -94,7 +94,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--blue);
-    margin-right: 76px;
+    
     
 }
 
@@ -594,7 +594,7 @@ img {
 
 .logo-div {
 
-    gap: 120px;
+    margin-right: 120px;
 }
 
 .scp {
