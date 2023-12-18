@@ -19,6 +19,15 @@ h2 {
     margin: 0;
 }
 
+div {
+
+    display: block;
+}
+
+ul {
+
+    padding: 0%;
+}
 .navig {
     display: flex;
     margin: 0px;
@@ -399,11 +408,13 @@ img {
     margin-right: 76px;
 }
 
-.last-decription {
+.last-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     max-width: 264px;
+    font-weight: 400px;
+    line-height: 1.5;
 }
 
 
